@@ -31,7 +31,7 @@ def get_filters():
 
 
     day=str(input("Please enter the day you want to filter by: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\n If you want to filter by all the days enter'all'\n").lower())
-
+    print("well done on finishing the first step")
     print('-'*40)
     return city, month, day
 
